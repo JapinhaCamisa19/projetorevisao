@@ -1,8 +1,29 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .menus {
+        flex-direction: column;
+
+    }
+
+    .rodape {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
 
 }
+
 
 .cabecalho {
     background-color: green;
@@ -38,6 +59,7 @@ body {
     font-size: 16px;
     transition: transform 0.5s;
 }
+
 .menus li:hover {
     transform: scale(1.1);
 }
@@ -279,16 +301,18 @@ body {
 
 }
 
-.logoRodape img{
+.logoRodape img {
     width: 200px;
     height: 80px;
 }
-.redesSocialRodape img{
+
+.redesSocialRodape img {
     width: 80px;
     height: 80px;
     border-radius: 20px;
     transition: transform 0.5s;
 }
+
 .redesSocialRodape img:hover {
     transform: scale(1.1);
 }
@@ -303,6 +327,7 @@ body {
     transition: transform 0.5s;
 
 }
+
 .cardPlano:hover {
     transform: scale(1.1);
 }
